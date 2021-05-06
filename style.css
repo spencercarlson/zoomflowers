@@ -1,0 +1,14 @@
+h1,p {
+	font-family: Rubik;
+	padding-top: 40px;
+	/*color: #ee8b3f;*/
+}
+
+h1 {
+	color: #ee8b3f;
+	font-weight: 900;
+}
+
+body {
+	background-color: #4b60e3;
+}
