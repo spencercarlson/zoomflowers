@@ -8,5 +8,6 @@ app.url_map.strict_slashes = False
 @app.route('/')
 def index():
     flowers = os.listdir('static/flowers')
+    print(flowers)
     flowers.remove('.DS_Store')
     return render_template('index.html',flowers=flowers)
