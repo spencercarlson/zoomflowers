@@ -9,6 +9,6 @@ app.config.from_object(__name__)
 def index():
     flowers = os.listdir('static/flowers')
     print(flowers)
-    flowers.remove('.DS_Store')
+    # flowers.remove('.DS_Store')
     print(flowers)
     return render_template('index.html',flowers=flowers)
