@@ -1,0 +1,24 @@
+h1,p {
+	font-family: Rubik;
+	padding-top: 40px;
+}
+
+h1 {
+	color: #ee8b3f;
+	font-weight: 900;
+}
+
+.row img {
+	width: 100%;
+	padding-top: 1.5rem;
+}
+
+.section {
+	background-color: #4b60e3;
+	padding-bottom: 1.5rem;
+}
+
+body {
+	background-color: white;
+	padding-bottom: 1.5rem;
+}
