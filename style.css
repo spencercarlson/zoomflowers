@@ -1,7 +1,6 @@
 h1,p {
 	font-family: Rubik;
 	padding-top: 40px;
-	/*color: #ee8b3f;*/
 }
 
 h1 {
@@ -9,11 +8,17 @@ h1 {
 	font-weight: 900;
 }
 
-img {
+.row img {
 	width: 100%;
 	padding-top: 1.5rem;
 }
 
-body {
+.section {
 	background-color: #4b60e3;
+	padding-bottom: 1.5rem;
+}
+
+body {
+	background-color: white;
+	padding-bottom: 1.5rem;
 }
