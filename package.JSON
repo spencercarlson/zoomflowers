@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "python freeze.py && cp CNAME build/CNAME",
-    "deploy": "npm run build && gh-pages -d build -b master && rm -rf build"
+    "deploy": "npm run build && gh-pages -d build -b live && rm -rf build"
   },
   "dependencies": {
     "gh-pages": "^1.2.0"
