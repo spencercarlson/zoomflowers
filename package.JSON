@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "python freeze.py && cp CNAME build/CNAME",
+    "build": "pipenv run python freeze.py && cp CNAME build/CNAME",
     "deploy": "npm run build && gh-pages -d build -b live && rm -rf build"
   },
   "dependencies": {
